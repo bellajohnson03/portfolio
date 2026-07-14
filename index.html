@@ -8,7 +8,43 @@
 <title>Isabela Johnson | GIS Portfolio</title>
 
 <style>
+.about-container {
 
+display:flex;
+align-items:flex-start;
+gap:40px;
+flex-wrap:wrap;
+
+}
+
+.about-photo {
+
+width:220px;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,.15);
+
+}
+
+.about-text {
+
+flex:1;
+
+}
+
+.about-text p {
+
+line-height:1.7;
+
+}
+
+body {
+
+margin:0;
+font-family:"Times New Roman", Times, serif;
+background:#f4f6f8;
+color:#222;
+
+}
 body {
     margin: 0;
     font-family: "Times New Roman", Times, serif;
@@ -191,9 +227,13 @@ padding:25px;
 
 <a href="#">Home</a>
 
-<a href="#projects">Projects</a>
-
 <a href="#about">About</a>
+
+<a href="#experience">Experience</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#projects">Projects</a>
 
 <a href="#contact">Contact</a>
 
@@ -229,14 +269,35 @@ View Projects
 
 <h2>About Me</h2>
 
+<div class="about-container">
+
+<img src="image/isabela-headshot.jpg"
+     class="about-photo"
+     alt="Professional photo of Isabela Johnson">
+
+<div class="about-text">
 
 <p>
 
-I am a Homeland Security student specializing in Emergency Management and Geographic Information Systems (GIS). My work focuses on applying geospatial analysis to understand hazards, critical infrastructure, and community resilience.
-
-Through academic projects and GIS experience, I have developed skills in ArcGIS Pro, ArcGIS Online, StoryMaps, spatial analysis, geospatial data management, and cartographic design. My projects emphasize the use of open-source data to support emergency planning, risk assessment, and data-driven decision-making.
+I am a Homeland Security student at the University of New Hampshire specializing in Emergency Management and Geographic Information Systems (GIS). My work focuses on applying geospatial analysis to understand natural hazards, critical infrastructure, and community resilience.
 
 </p>
+
+<p>
+
+Through academic projects, applied GIS coursework, and a university GIS internship, I have developed skills in ArcGIS Pro, ArcGIS Online, ArcGIS StoryMaps, spatial analysis, geospatial data management, and cartographic design. I enjoy integrating data from multiple sources to produce maps and geospatial products that support emergency planning, hazard assessment, and data-driven decision-making.
+
+</p>
+
+<p>
+
+My portfolio highlights projects that demonstrate my ability to collect, analyze, visualize, and communicate spatial information through interactive applications and professional cartographic products.
+
+</p>
+
+</div>
+
+</div>
 
 </section>
 
@@ -261,10 +322,148 @@ Through academic projects and GIS experience, I have developed skills in ArcGIS 
 
 </section>
 </section>
+<section id="experience">
 
+<h2>Professional Experience</h2>
+
+
+<div class="projects">
+
+
+<div class="card">
+
+<h3>
+GIS Intern — University of New Hampshire
+</h3>
+
+<p>
+UNH Facilities Capital Planning & Management | Spatial Data Systems
+</p>
+
+<p>
+
+Supported campus planning initiatives through GIS data management, ArcGIS Pro analysis, and geospatial visualization. Developed digital mapping products, improved spatial data accuracy, and assisted with hazard assessment and infrastructure mapping projects.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Recreation Intern — City of Portsmouth, NH
+</h3>
+
+<p>
+
+Developed emergency preparedness resources for city-run programs, including an Emergency Action Plan for summer camp operations. Collaborated with municipal departments to improve safety planning, communication, and emergency response procedures.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Pool Manager — Cedar Park, TX
+</h3>
+
+<p>
+
+Managed daily operations across multiple aquatic facilities, supervising staff, coordinating emergency response procedures, and maintaining safety standards for large public facilities.
+
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>GIS & Mapping</h3>
+
+<ul>
+
+<li>ArcGIS Pro</li>
+
+<li>ArcGIS Online</li>
+
+<li>ArcGIS StoryMaps</li>
+
+<li>ArcGIS Field Maps</li>
+
+<li>Web Mapping & Interactive Applications</li>
+
+<li>Cartographic Design</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Spatial Analysis</h3>
+
+<ul>
+
+<li>Hazard Assessment</li>
+
+<li>Critical Infrastructure Analysis</li>
+
+<li>Vulnerability Assessment</li>
+
+<li>Emergency Management GIS</li>
+
+<li>Geospatial Data Integration</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Data & Emergency Management</h3>
+
+<ul>
+
+<li>NOAA Hazard Data</li>
+
+<li>FEMA Resilience Data</li>
+
+<li>U.S. Census Demographic Data</li>
+
+<li>Emergency Planning & Preparedness</li>
+
+<li>Disaster Risk Reduction</li>
+
+</ul>
+
+</div>
+
+
+</div>
+
+</section>
 <section id="projects">
 
-<h2>Featured Projects</h2>
+<h2>GIS Projects</h2>
 
 
 
@@ -273,23 +472,23 @@ Through academic projects and GIS experience, I have developed skills in ArcGIS 
 
 <div class="card">
 
-<img src="image/helene-hurricane-path.jpeg" class="project-thumb" alt="Hurricane Helene map">
+<img src="image/helene-hurricane-path.jpeg" class="project-thumb" alt="Hurricane Helene GIS map">
 
 <div style="padding:25px;">
 
-<h3>🌀 Hurricane Helene Impact Assessment</h3>
+<h3>
+Hurricane Helene Impact Assessment
+</h3>
 
 <p>
 
-Developed an interactive ArcGIS StoryMap integrating NOAA, FEMA, Esri, and U.S. Census datasets to analyze hurricane hazards, critical infrastructure, healthcare accessibility, evacuation planning, and community resilience across Florida and Georgia.
+Developed an ArcGIS StoryMap analyzing Hurricane Helene impacts across Florida and Georgia through hazard mapping, critical infrastructure analysis, healthcare accessibility, evacuation planning, and community resilience assessment.
 
 </p>
 
-<p style="font-weight:bold; color:#0b1f33;">
-
+<a href="projects/hurricane-helene.html" class="button">
 View Project →
-
-</p>
+</a>
 
 </div>
 
@@ -300,17 +499,17 @@ View Project →
 <div class="card">
 
 <h3>
-🌪 Erie County Multi-Hazard Resilience Assessment
+Erie County Disaster Resilience Assessment
 </h3>
 
 <p>
 
-Conducted geospatial analysis of tornado vulnerability, critical infrastructure, healthcare accessibility, and disaster mitigation planning to support community resilience in Erie County, New York.
+Multi-hazard GIS assessment evaluating tornado vulnerability, healthcare access, critical infrastructure, and community resilience in Erie County, New York.
 
 </p>
 
-<a href="#">
-Project Coming Soon
+<a href="#" class="button">
+View Project →
 </a>
 
 </div>
@@ -319,13 +518,18 @@ Project Coming Soon
 <div class="card">
 
 <h3>
-🎓 University GIS Internship
+University GIS Internship
 </h3>
+
 
 <p>
 
-Supported university campus planning and spatial data management using ArcGIS Pro. Due to the internal nature of university datasets, project materials cannot be publicly shared.
+Supported UNH Facilities Capital Planning & Management through ArcGIS Pro, ArcGIS Online, spatial data management, campus mapping, and infrastructure-focused GIS projects.
 
+</p>
+
+<p>
+Project materials are limited due to institutional data confidentiality.
 </p>
 
 </div>
@@ -342,7 +546,24 @@ Supported university campus planning and spatial data management using ArcGIS Pr
 <h2>Contact</h2>
 
 <p>
-LinkedIn | Resume | Email
+Interested in GIS, emergency management, or geospatial analysis opportunities? Feel free to connect.
+</p>
+
+<p>
+
+<a href="https://www.linkedin.com/in/isabelajohnson/" target="_blank">
+LinkedIn
+</a>
+
+|
+
+
+|
+
+<a href="mailto:bellajohnson03">
+Email
+</a>
+
 </p>
 
 </section>
