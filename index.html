@@ -134,16 +134,30 @@ flex-wrap:wrap;
 
 background:white;
 
-padding:25px;
-
 border-radius:12px;
-
-width:300px;
-
+overflow:hidden;
+width:320px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
 
 }
 
+.card:hover {
+
+transform:translateY(-6px);
+
+box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+}
+
+
+.project-thumb {
+
+width:100%;
+height:200px;
+object-fit:cover;
+
+}
 
 .card h3 {
 
@@ -218,79 +232,99 @@ View Projects
 
 <p>
 
-I am a Homeland Security student specializing in Emergency Management and
-geospatial analysis. My work focuses on using GIS to analyze hazards,
-critical infrastructure, and community resilience.
+I am a Homeland Security student specializing in Emergency Management and Geographic Information Systems (GIS). My work focuses on applying geospatial analysis to understand hazards, critical infrastructure, and community resilience.
 
-I have experience with ArcGIS Pro, ArcGIS Online, StoryMaps,
-geospatial data management, and cartographic design.
+Through academic projects and GIS experience, I have developed skills in ArcGIS Pro, ArcGIS Online, StoryMaps, spatial analysis, geospatial data management, and cartographic design. My projects emphasize the use of open-source data to support emergency planning, risk assessment, and data-driven decision-making.
 
 </p>
 
 </section>
 
+<section id="skills">
 
+<h2>Technical Skills</h2>
+
+<ul>
+
+<li>ArcGIS Pro</li>
+<li>ArcGIS Online</li>
+<li>ArcGIS StoryMaps</li>
+<li>Spatial Analysis</li>
+<li>Geospatial Data Management</li>
+<li>Cartographic Design</li>
+<li>Hazard & Vulnerability Assessment</li>
+<li>Critical Infrastructure Analysis</li>
+<li>Data Visualization</li>
+<li>Emergency Management Planning</li>
+
+</ul>
+
+</section>
+</section>
 
 <section id="projects">
 
 <h2>Featured Projects</h2>
 
 
-<div class="projects">
+
+
+<div class="card">
+
+<img src="image/helene-hurricane-path.jpeg" class="project-thumb">
+
+<div style="padding:25px;">
+
+<h3>🌀 Hurricane Helene Impact Assessment</h3>
+
+<p>
+
+Developed an interactive ArcGIS StoryMap integrating NOAA, FEMA, Esri, and U.S. Census datasets to analyze hurricane hazards, healthcare accessibility, evacuation planning, and community resilience across Florida and Georgia.
+
+</p>
+
+<a href="projects/hurricane-helene.html" class="button">
+
+View Project →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>
+🌪 Erie County Multi-Hazard Resilience Assessment
+</h3>
+
+<p>
+
+Conducted geospatial analysis of tornado vulnerability, critical infrastructure, healthcare accessibility, and disaster mitigation planning to support community resilience in Erie County, New York.
+
+</p>
+
+<a href="#">
+Project Coming Soon
+</a>
+
+</div>
 
 
 <div class="card">
 
 <h3>
-🌪 Erie County Disaster Resilience Assessment
+🎓 University GIS Internship
 </h3>
 
 <p>
 
-Spatial analysis project evaluating tornado vulnerability,
-critical infrastructure, and emergency preparedness.
+Supported university campus planning and spatial data management using ArcGIS Pro. Due to the internal nature of university datasets, project materials cannot be publicly shared.
 
 </p>
 
 </div>
-
-
-
-<div class="card">
-
-<h3>
-🌀 Hurricane Helene StoryMap
-</h3>
-
-
-<p>
-
-Interactive ArcGIS StoryMap analyzing disaster impacts,
-response, and recovery.
-
-</p>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h3>
-🎓 UNH GIS Internship
-</h3>
-
-
-<p>
-
-Supported university spatial data management,
-campus planning, and hazard assessment using ArcGIS tools.
-
-</p>
-
-</div>
-
 
 </div>
 
