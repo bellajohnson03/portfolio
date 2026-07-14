@@ -1,117 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isabela Johnson | GIS Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            margin:0;
-            background:#f5f5f5;
-            color:#222;
-        }
+<title>Isabela Johnson | GIS Portfolio</title>
 
-        header{
-            background:#12355B;
-            color:white;
-            text-align:center;
-            padding:60px 20px;
-        }
+<style>
 
-        h1{
-            margin:0;
-            font-size:3em;
-        }
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background: #f4f6f8;
+    color: #222;
+}
 
-        h2{
-            color:#12355B;
-        }
+/* Navigation */
 
-        section{
-            max-width:1000px;
-            margin:40px auto;
-            padding:20px;
-            background:white;
-            border-radius:10px;
-            box-shadow:0 2px 10px rgba(0,0,0,.1);
-        }
+nav {
+    background: #0b1f33;
+    padding: 20px;
+    text-align: center;
+}
 
-        .project{
-            margin-bottom:25px;
-        }
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
 
-        a{
-            color:#12355B;
-            text-decoration:none;
-            font-weight:bold;
-        }
+nav a:hover {
+    color: #5aa9e6;
+}
 
-        footer{
-            text-align:center;
-            padding:30px;
-            color:#666;
-        }
-    </style>
+
+/* Hero Section */
+
+.hero {
+
+    background:
+    linear-gradient(
+    rgba(11,31,51,.85),
+    rgba(11,31,51,.85)
+    ),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Earth_map.png/1280px-Earth_map.png");
+
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+    text-align:center;
+
+    padding:100px 20px;
+
+}
+
+
+.hero h1 {
+
+    font-size:48px;
+    margin-bottom:10px;
+
+}
+
+
+.hero p {
+
+    font-size:22px;
+
+}
+
+
+/* Buttons */
+
+.button {
+
+display:inline-block;
+background:#4da3d9;
+color:white;
+
+padding:12px 25px;
+
+border-radius:6px;
+
+text-decoration:none;
+
+margin-top:20px;
+
+font-weight:bold;
+
+}
+
+
+/* Sections */
+
+section {
+
+max-width:1100px;
+
+margin:50px auto;
+
+padding:20px;
+
+}
+
+
+h2 {
+
+color:#0b1f33;
+
+font-size:32px;
+
+}
+
+
+
+/* Project Cards */
+
+.projects {
+
+display:flex;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+
+.card {
+
+background:white;
+
+padding:25px;
+
+border-radius:12px;
+
+width:300px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+
+.card h3 {
+
+color:#0b1f33;
+
+}
+
+
+footer {
+
+background:#0b1f33;
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+}
+
+
+</style>
+
 </head>
+
 
 <body>
 
-<header>
-    <h1>Isabela Johnson</h1>
-    <p>GIS • Homeland Security • Emergency Management</p>
-</header>
 
-<section>
-    <h2>About Me</h2>
+<nav>
 
-    <p>
-        Welcome to my GIS portfolio. I am a Homeland Security student with experience using ArcGIS Pro,
-        ArcGIS Online, StoryMaps, and geospatial analysis to support emergency management,
-        hazard assessment, and planning projects.
-    </p>
+<a href="#">Home</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#about">About</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+
+<div class="hero">
+
+<h1>Isabela Johnson</h1>
+
+<p>
+GIS • Homeland Security • Emergency Management
+</p>
+
+
+<p>
+Developing geospatial products that support
+risk assessment, resilience, and decision-making.
+</p>
+
+
+<a class="button" href="#projects">
+View Projects
+</a>
+
+
+</div>
+
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+
+<p>
+
+I am a Homeland Security student specializing in Emergency Management and
+geospatial analysis. My work focuses on using GIS to analyze hazards,
+critical infrastructure, and community resilience.
+
+I have experience with ArcGIS Pro, ArcGIS Online, StoryMaps,
+geospatial data management, and cartographic design.
+
+</p>
+
 </section>
 
-<section>
+
+
+<section id="projects">
 
 <h2>Featured Projects</h2>
 
-<div class="project">
-<h3>Erie County Disaster Resilience Assessment</h3>
+
+<div class="projects">
+
+
+<div class="card">
+
+<h3>
+🌪 Erie County Disaster Resilience Assessment
+</h3>
 
 <p>
-Spatial analysis evaluating tornado vulnerability, critical infrastructure, and emergency preparedness.
+
+Spatial analysis project evaluating tornado vulnerability,
+critical infrastructure, and emergency preparedness.
+
 </p>
 
 </div>
 
-<div class="project">
-<h3>Hurricane Helene StoryMap</h3>
+
+
+<div class="card">
+
+<h3>
+🌀 Hurricane Helene StoryMap
+</h3>
+
 
 <p>
-Interactive StoryMap communicating disaster impacts and recovery through maps and narrative.
+
+Interactive ArcGIS StoryMap analyzing disaster impacts,
+response, and recovery.
+
 </p>
 
 </div>
 
-<div class="project">
-<h3>UNH GIS Internship</h3>
+
+
+
+<div class="card">
+
+<h3>
+🎓 UNH GIS Internship
+</h3>
+
 
 <p>
-Supported campus planning and hazard assessment using ArcGIS Pro and ArcGIS Online.
-Project examples are not publicly available due to university data restrictions.
+
+Supported university spatial data management,
+campus planning, and hazard assessment using ArcGIS tools.
+
 </p>
 
 </div>
+
+
+</div>
+
 
 </section>
+
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>
+LinkedIn | Resume | Email
+</p>
+
+</section>
+
+
 
 <footer>
 
 © 2026 Isabela Johnson
 
 </footer>
+
 
 </body>
 
