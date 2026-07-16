@@ -50,7 +50,31 @@ width:100%;
 border-radius:8px;
 
 }
+  
+.gallery {
 
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+margin-top:25px;
+
+}
+
+.gallery figure {
+
+margin:0;
+
+}
+
+.gallery figcaption {
+
+text-align:center;
+margin-top:10px;
+font-style:italic;
+color:#555;
+
+}
+  
 a {
 
 color:#0b1f33;
@@ -96,7 +120,7 @@ As part of a collaborative disaster resilience project, my individual focus exam
 
 </p>
 
-</section>pppp-
+</section>
 
 
 
@@ -179,13 +203,55 @@ The final geospatial products supported three major emergency management phases:
 
 </section>
 
-</section>
+
+<section>
+
 <section>
 
 <h2>Geospatial Products</h2>
 
+<p>
+The following maps were developed to support the disaster resilience assessment by analyzing healthcare accessibility, emergency response capabilities, population characteristics, and critical infrastructure throughout Erie County.
+</p>
+
+<div class="gallery">
+
+<figure>
+
+<img src="image/erie/hospital-bed-capacity.png" alt="Hospital Bed Capacity Map" class="project-image">
+
+<figcaption>Hospital Bed Capacity Analysis</figcaption>
+
+</figure>
 
 
+<figure>
+
+<img src="image/erie/population-density.png" alt="Population Density Map" class="project-image">
+
+<figcaption>Population Density Analysis</figcaption>
+
+</figure>
+
+
+<figure>
+
+<img src="image/erie/critical-infrastructure.png" alt="Critical Infrastructure Map" class="project-image">
+
+<figcaption>Critical Infrastructure Assessment</figcaption>
+
+</figure>
+
+
+<figure>
+
+<img src="image/erie/hospital-access.png" alt="Hospital Accessibility Map" class="project-image">
+
+<figcaption>Healthcare Accessibility Analysis</figcaption>
+
+</figure>
+
+</div>
 
 </section>
 
